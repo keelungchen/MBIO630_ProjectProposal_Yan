@@ -3,15 +3,25 @@ MBIO630_ProjectProporsal_Yan
 Yan
 2022-10-02
 
-\##Introduction
+## Introduction
+
 群礁在世界分布很廣泛，是亞潮帶生物棲息的主要結構，過去已有地質上針對其型態的研究，也有生物沿著其深度分布的變化研究，但較少將其形態與生物多樣性結合的探討
 
 ## Research questions
+
+群礁的形態是否與生物多樣性指標相關? 群礁形態的地理分部差異?
+能否由群礁形態判斷一地的環境狀況(水溫、波浪)?
+群礁形態、生物多樣性指標、環境因子三者間有何關係?
 
 ## Rationale for that question
 
 ## Data sources
 
+谷哥地圖高解析度衛星資料 衛星環境因子 台灣當地高解析度的生物調查資料
+
 ## Proposed methods for data extraction and analysis
+
+群礁形態定義 用GIS軟體圈選出形態、或是用AI自動辨識裂隙與計算面積或長度
+用谷哥地球引擎環境因子地圖 取得各地的環境資料
 
 ## etc
