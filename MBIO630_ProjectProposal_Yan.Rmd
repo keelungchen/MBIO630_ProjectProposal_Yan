@@ -9,30 +9,56 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introduction
-群礁在世界分布很廣泛，是亞潮帶生物棲息的主要結構，過去已有地質上針對其型態的研究，也有生物沿著其深度分布的變化研究，但較少將其形態與生物多樣性結合的探討
-
-
 ## Research questions
-群礁的形態是否與生物多樣性指標相關?
-群礁形態的地理分部差異? 能否由群礁形態判斷一地的環境狀況(水溫、波浪)?
-群礁形態、生物多樣性指標、環境因子三者間有何關係?
+
+How is the morphology of fringing reefs distributed geographically? What are the differences along the parallel and vertical of the latitude?
+
+Could we estimate the environmental conditions, such as SST and wave energy or wave height, by the morphology of fringing reefs?
+
+Is the morphology of fringing reefs correlated with the biodiversity?
+
+What is the relation between morphology of fringing reefs, environmental conditions and biodiversity?
 
 ## Rationale for that question
 
+Fringing reefs are widely distributed in the tropical and subtropical zones across the world. The structure of fringing reefs provide the habitats for the intertidal and subtidal organisms (REF). Meanwhile, the morphology of fringing reefs are shaped by the reef-building organisms and the environment factors (REf). Previous researches have studied the growth and morphology of fringing reefs from geology aspect (REF) and the bathymetric distribution of corals on the fringing reefs (REF). But the relation between morphology of fringing reefs and their biodiversity has not been studied 還有地理空間分布.     
 
+群礁在熱帶與副熱帶世界分布很廣泛，是潮間帶與亞潮帶生物棲息的主要結構，群礁的形態由造礁生物與環境共同塑造(REF)，過去已有地質上針對其型態以及如何演化的研究，也有生物沿著其深度分布的變化研究，但較少將其形態與生物多樣性結合的探討
 
+從古哥地圖上可以明顯看出群礁(解析度2m左右就可看出)，交友分布差異(圖)，沿著緯度變化的，島的不同岸的
+
+但不同地理位置群礁的結構可以很複雜，有潟湖的 水下的()，
+
+本研究選擇聚焦台灣，因為台灣有發育良好的裙礁，跨越熱帶副熱帶可看出沿著緯度的完整變化，也有許多島嶼可進行比較，也有較多生物多樣性相關資料
+
+群礁的寬度代表 能否良好提供生物躲避波浪衝擊或掠食者，長度和密度則代表有多少空間可供生物利用 越寬的能抵禦衝擊與能供生物躲藏的空間越少
+風浪越大或越冷的區域群礁的發育應越差(寬、潮間帶窄)
+
+看群礁的型態是否有助於生物多樣性維持 其他擾動對於其影響
+
+了解其在南北緯度上分布的界線 有助於海域資源管理 以及保育區規劃 也能為數學模式提供更多資料
 
 ## Data sources
-谷哥地圖高解析度衛星資料
-衛星環境因子
-台灣當地高解析度的生物調查資料
+谷哥 planet exploer地圖高解析度衛星資料
+earth enginee衛星環境因子 (解析度夠高嗎?)
+台灣當地高解析度的水文(氣象局、ODB)、生物調查資料(文獻、IOCEAN)、颱風路徑統計
 
 
 ## Proposed methods for data extraction and analysis
-群礁形態定義
+群礁形態定義 with spur and groove structures
+槽溝的寬度、長度、深度、密度、形狀、朝向heading
+群礁的型態可能很複雜，先聚焦在台灣的那種
+
 用GIS軟體圈選出形態、或是用AI自動辨識裂隙與計算面積或長度
 用谷哥地球引擎環境因子地圖 取得各地的環境資料
 
+## Limitation
+
+當和生物多樣性指標做分析時，會有更多其他因子影響(如 人為活動或自然史)，因此最好選沒有人為活動的區域 不要只限於台灣
+需要結合更精確地水下資料
+生物多樣性資料應該要 看長期的波動 求其穩定性 不可只看一個時間點的值
+水面上的結構是否與水下的有關?
+
+## Reference
 
 ## etc
