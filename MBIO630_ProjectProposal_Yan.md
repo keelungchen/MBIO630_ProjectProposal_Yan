@@ -6,11 +6,11 @@ Yan
 ## Research questions
 
 1.  How is the **morphology of fringing reefs** distributed
-    geographically? What are the differences along the parallel and
-    vertical of the latitude?
+    geographically? What are the differences along the latitude and
+    longitude
 
 2.  Could we estimate the **environmental conditions**, such as SST and
-    wave energy or wave height, by the morphology of fringing reefs?
+    wave energy, by the morphology of fringing reefs?
 
 3.  Is the morphology of fringing reefs correlated with the
     **biodiversity**?
